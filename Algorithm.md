@@ -44,11 +44,11 @@
 how to backtracking
 
 
- - dijkstra
- it's needed for distance, predecessor, complete
- distance : *estimated* shortest distance (node to node)
- predecessor : immediatley before node *so far*
- complete : True or False (Fully searched graph)
+ - dijkstra   
+ it's needed for distance, predecessor, complete   
+ distance : *estimated* shortest distance (node to node)   
+ predecessor : immediatley before node *so far*   
+ complete : True or False (Fully searched graph)   
  
  ```python
  #dijkstra algorithm
