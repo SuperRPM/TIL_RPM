@@ -27,7 +27,7 @@
  의 경로를 구한다고 할때
  목적지 D의 노드를 기준으로 predecessor를 추적하여 A까지 도착하는것을 백트랙킹이라고 한다.
  
- '''python
+ ```python
  def back_track(destination_node):
     """최단 경로를 찾기 위한 back tracking 함수"""
     res_str = ""  # 리턴할 결과 문자열
@@ -40,5 +40,5 @@
         current_node = current_node.predecessor
     res_str += destination_node.station_name
     return res_str
- '''
+ ```
 how to backtracking
