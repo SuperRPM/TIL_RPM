@@ -42,3 +42,24 @@
     return res_str
  ```
 how to backtracking
+
+
+ - dijkstra
+ it's needed for distance, predecessor, complete
+ distance : *estimated* shortest distance (node to node)
+ predecessor : immediatley before node *so far*
+ complete : True or False (Fully searched graph)
+ 
+ ```python
+ #dijkstra algorithm
+ """
+Dijkstra algorithm
+
+시작점의 distance를 0으로, predecessor를 None으로
+모든 노드가 complete 일 때까지:
+	complete하지 않은 노드 중 distance가 가장 작은 노드 선택
+	이 노드에 인접한 노드 중 complete하지 않은 노드를 순회하면서:
+		각 엣지를 relax
+	현재 노드를 complete 처리한다
+ """
+ ```
