@@ -55,7 +55,7 @@ chr험수와 반대로 문자 -> 아스키코드 로 변환해준다
 list = [i for i in range(10) if i % 2 == 0]
 # [0, 2, 4, 6, 8]
 
-**You should use 
+**You should use list comprehension to make Two-dimensional array**
 dimension_array = [[0] * 4 for i in range(3)]
 # [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
 
