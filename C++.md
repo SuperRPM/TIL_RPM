@@ -2,6 +2,9 @@
 c++에서 4.000 소수점 고정표기 하는 방법 ( fixed notation)   
 cout << fixed 또는 << showpoint 입력후 << cout.precision(int number) 입력   
 int number가 2라면 4.00까지 출력되고 아래는 반올림 한다.   
+showpoint로 설정했다면 precision(int number)의 number는 소수점 이상의 숫자 즉 자연수 값에 대한 범위를 표시한다    
+즉, showpoint << setprecision(3) 이라면 1.00까지 출력된다   
+fixed방식으로 설정했다면 fixed << setprecision(3)일 경우 1.000으로 소수점 이하 3자리 숫자가 출력된다.   
 
 
 2021-03-23   
