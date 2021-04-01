@@ -16,3 +16,5 @@ RIGHT로 하면 stock table이 기준이 되는데
 LEFT OUTER JOIN   
 
 RIGHT OUTER JOIN   
+
+- 
