@@ -17,4 +17,18 @@ LEFT OUTER JOIN
 
 RIGHT OUTER JOIN   
 
-- 연산
+- 연산   
+교집합
+SELECT * FROM member_A 
+**INTERSECT **
+SELECT * FROM member_B
+
+차집합
+SELECT * FROM member_A 
+**MINUS**
+SELECT * FROM member_B
+
+합집합
+SELECT * FROM member_A
+**UNION**
+SELECT * FROM member_B
