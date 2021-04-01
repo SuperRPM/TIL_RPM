@@ -17,7 +17,8 @@ LEFT OUTER JOIN
 
 RIGHT OUTER JOIN   
 
-- 연산   
+- 연산         
+
 교집합
 SELECT * FROM member_A     
 **INTERSECT **       
