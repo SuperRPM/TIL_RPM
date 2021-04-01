@@ -17,4 +17,4 @@ LEFT OUTER JOIN
 
 RIGHT OUTER JOIN   
 
-- 
+- 연산
