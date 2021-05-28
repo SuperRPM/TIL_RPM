@@ -54,3 +54,12 @@ brute-force 인지 grid라고 해야할지 모르겠지만 for문을 3중첩을 
 처리해야할 데이터의 숫자 자체가 크지 않아서 연산에는 문제가 없다.
 오히려 시간 복잡도에 집착해서 n^3으로 해결할 수 있는걸 괜히 어렵게 푸는걸 경계해야겠다. 구현, 시뮬레이션 문제는 다소 시간복잡도를 적게 고려해보자.
 
+**20210528**
+- mvc mvt
+MVC와 MVT모두 아키텍처 혹은 디자인 패턴이라고 부르는데 웹개발을 할 때 적용하는 코딩방식(?)이다.
+Model View Controller와 Model View Template로 구성된다.
+Django에서는 MVT방식을 사용한다.
+MVC와 구별되는 MVT방식의 차이는 Controller에서(views.py)받아들이는 요청을 개발자가 직접 코딩하는것이 아니라
+Django framework에서 지원한다는 차이가 있다. 그래서 Controller로서의 기능보다는 Template에 보다 집중할 수 있게 만들어준것이다.
+그래서 Django는 MVC와 유사하지만 이러한 차이가 있는 MVT구조를 사용한다.
+
